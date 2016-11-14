@@ -10,6 +10,7 @@ public class Tree {
     private Tree_Node leftNode;
     private Tree_Node rightNode;
 
+    
     void putNode(Tree_Node newNode){
         if (root == null){ root = newNode; return; }
         Tree_Node rootNode = root;
